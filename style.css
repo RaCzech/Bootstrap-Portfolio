@@ -2,8 +2,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 34px;
-    color: teal;
-    overflow: auto;
     
   }
 
@@ -56,20 +54,17 @@ body {
     position: relative;
     width: 274px;
     margin: 20px 0 25px;
-    overflow: auto;
   }
 
   h3 {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
-      padding: 15px;
-      margin-bottom: 0;
-      font-weight: 300;
-      line-height: 30px;
-      color: #fff;
-      text-align: center;
-      background: #4aaaa5;
-      border-bottom: 0;
-      max-width: 275px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    background: teal;
+    max-width: 275px;
     }
