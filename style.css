@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: teal;
+    overflow: auto;
     
   }
 
@@ -24,4 +25,36 @@ body {
 /* bootstrap navbar */
   .navbar {
     margin-top: 15px;
+  }
+  .nav {
+    border-top: 8px solid teal;
+    height: 100px;
+    color: white;
+  }
+
+  .row2 {
+    margin: 25px;
+  }
+
+  .cat {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .jumbotron {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+  }
+
+  .pic {
+    position: relative;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
   }

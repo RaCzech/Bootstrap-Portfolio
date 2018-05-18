@@ -1,15 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    </head>
-    <body>
-        <header>
 
-        </header>
-        <footer>
-            
-        </footer>
-    </body>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <!-- Reminder using h1 will not align the logo name with border-bottom -->
+            <a id="name">Your Name</a>
+            <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-7">
+                    <!-- Bootstrap; navbar-collapse -->
+                    <nav class="navbar navbar-expand-md navbar-light bg-white">
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" href="index.html" style="margin-right: 20px;">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" href="portfolio.html" style="border-left: 1px solid lightgray; padding-left: 20px; margin-right: 20px;">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" href="contact.html" style="border-left: 1px solid lightgray; padding-left: 20px;">Contacts</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="jumbotron" style="background: white">
+                        <h1 class="display-3">Contact</h1>
+                        <hr class="my-2">
+                        <!-- bootstrap form inside jumbotron -->
+                        <form>
+                            <div class="form-group row">
+                                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-lg">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control form-control" id="colFormLabel" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="colFormLabel" class="col-sm-2 col-form-label-lg">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="colFormLabel" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Message</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                                    
+                                    <button type="submit" class="btn btn-primary" style="background: gray; margin: 20px;">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav navbar-light bg-dark">
+            <span class="navbar-text" style="color: white">
+                Copyright
+            </span>
+        </nav>
+    </div>
+</body>
 
 </html>
